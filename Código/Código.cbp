@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Código" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Código" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Código" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="aspa_blanca.bmp" />
+		<Unit filename="aspa_roja.bmp" />
+		<Unit filename="ayuda.bmp" />
+		<Unit filename="bala.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bala.h" />
+		<Unit filename="bola_fuego.bmp" />
+		<Unit filename="calamar.bmp" />
+		<Unit filename="colisiones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="colisiones.h" />
+		<Unit filename="ejercito.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ejercito.h" />
+		<Unit filename="enemigo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="enemigo.h" />
+		<Unit filename="escudo.bmp" />
+		<Unit filename="explosion.bmp" />
+		<Unit filename="flor_fuego.bmp" />
+		<Unit filename="fondo_mario.bmp" />
+		<Unit filename="fuego.bmp" />
+		<Unit filename="gafas.bmp" />
+		<Unit filename="heroe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="heroe.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pantalla.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pantalla.h" />
+		<Unit filename="rafaga.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rafaga.h" />
+		<Unit filename="record.txt" />
+		<Unit filename="tux.bmp" />
+		<Unit filename="vida.bmp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
